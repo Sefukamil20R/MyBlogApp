@@ -1,5 +1,4 @@
 //import express : Express is used to create routes and handle HTTP requests.
-
 const express = require('express');
 //import blogController : blogController is used to handle the logic of the routes.
 const blogController = require('../controllers/blogController');

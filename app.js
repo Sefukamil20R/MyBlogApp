@@ -1,10 +1,11 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-const PORT = 3000;
+const PORT =  3000;
+const blogRoutes = require('./routes/blogRoutes');
 // express app
 const app = express();
-const dbURI = 'mongodb+srv://sefu-user:<Bintk1995Hamden>@node-begin.c0vzu.mongodb.net/?retryWrites=true&w=majority&appName=node-begin';
+const dbURI = 'mongodb+srv://sefu-user:Bintk1995Hamden@node-begin.c0vzu.mongodb.net/node-first?retryWrites=true&w=majority&appName=node-begin';
 // connect to mongodb & listen for requests
 
 mongoose.connect(dbURI)

@@ -22,7 +22,7 @@ const blogSchema = new Schema
             required: true
         }
     }, 
-    { timestamps: true }
+    { timestamps: true}
 );
 
 // create a new model using the schema
